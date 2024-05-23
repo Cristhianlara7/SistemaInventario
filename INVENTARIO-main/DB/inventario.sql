@@ -1,11 +1,7 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Servidor: localhost:3306
--- Tiempo de generación: 26-02-2022 a las 00:05:46
--- Versión del servidor: 5.7.33
--- Versión de PHP: 8.0.10
+--- Sistema de inventario
+--- Tiendas Armero Guayabal
+--- Juan Carlos Narvaez
+--- Cristhian Lara
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +14,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `pdo`
+-- Base de datos: `inventario`
 --
 
 -- --------------------------------------------------------
@@ -70,7 +66,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`usuario_id`, `usuario_nombre`, `usuario_apellido`, `usuario_usuario`, `usuario_clave`, `usuario_email`) VALUES
-(1, 'Administrador', 'Principal', 'Administrador', '$2y$10$EPY9LSLOFLDDBriuJICmFOqmZdnDXxLJG8YFbog5LcExp77DBQvgC', '');
+(1, 'Administrador', 'Principal', 'Administrador', '123456', '');
 
 --
 -- Índices para tablas volcadas
